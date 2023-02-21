@@ -1,0 +1,357 @@
+.solution-points-all-area-body {
+  width: 1370px;
+  border-radius: 10px;
+  height: 1220px;
+  max-width: 1370px;
+  max-height: 1220px;
+  box-shadow: 10px 10px 50px #00000029;
+  margin: 0 auto;
+  z-index: 4;
+  position: relative;
+  background: #fff;
+}
+
+.solution-points-body {
+  padding: 90px 77px;
+}
+
+.solution-points-title-area h4 {
+  color: #000000;
+  font-size: 42px;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+.solution-points-title-area {
+  margin-bottom: 65px;
+}
+
+.solution-points-province-filter-area .nice-select .list::-webkit-scrollbar-thumb {
+  background: #07A9B1; 
+  border-radius: 10px;
+}
+
+.solution-points-province-filter-area .nice-select ::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ececec;
+}
+
+
+
+.solution-points-district-body .nice-select .list::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ececec;
+}
+
+
+.solution-points-district-body .nice-select .list::-webkit-scrollbar-thumb {
+  background: #07A9B1; 
+  border-radius: 10px;
+}
+
+.solution-points-city-body .nice-select .list::-webkit-scrollbar-thumb {
+  background: #07A9B1; 
+  border-radius: 10px;
+}
+.solution-points-city-body .nice-select .list::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ececec;
+}
+
+
+
+/* filtre alanı */
+
+
+
+/* il alanı */
+.solution-points-province-filter-area .nice-select {
+  width: 100%;
+  color: #8D8D8D;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  outline: 1px solid #8D8D8D;
+  border-radius: 10px;
+  border: 0;
+}
+
+.solution-points-province-filter-area .open {
+  border-bottom: 0 !important;
+  border-bottom-left-radius: inherit !important;
+  border-bottom-right-radius: inherit !important;
+}
+
+.solution-points-province-filter-area .nice-select .list {
+  width: 100%;
+  box-shadow: inherit;
+  outline: 1px solid #8D8D8D;
+  border-top: indigo;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin: 0;
+  overflow-y: scroll;
+  max-height: 125px;
+
+}
+
+/* il alanı */
+
+
+/* ilçe alanı */
+.solution-points-district-body .nice-select {
+  width: 100%;
+  color: #8D8D8D;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  outline: 1px solid #8D8D8D;
+  border-radius: 10px;
+  border: 0;
+}
+
+.solution-points-district-body .open {
+  border-bottom: 0 !important;
+  border-bottom-left-radius: inherit !important;
+  border-bottom-right-radius: inherit !important;
+}
+
+.solution-points-district-body .nice-select .list {
+  width: 100%;
+  box-shadow: inherit;
+  outline: 1px solid #8D8D8D;
+  border-top: indigo;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin: 0;
+  overflow-y: scroll;
+  max-height: 125px;
+
+}
+
+.nice-select:after {
+  border-bottom: 2px solid #999;
+  border-right: 2px solid #999;
+  content: '';
+  display: block;
+  height: 15px;
+  margin-top: -4px;
+  pointer-events: none;
+  position: absolute;
+  right: 18px;
+  top: 15px;
+  -webkit-transform-origin: 66% 66%;
+  -ms-transform-origin: 66% 66%;
+  transform-origin: 66% 66%;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  width: 15px;
+}
+
+
+
+/* ilçe alanı */
+
+/* arama butonu alanı */
+.solution-points-searc-button-body {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  background: #07A9B1;
+}
+
+.solution-points-searc-button-body a {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: inherit;
+}
+
+
+/* arama butonu alanı */
+
+
+.solution-points-city-filter-area {
+  margin-top: 50px;
+}
+
+.see-other-solution-points-button-area {
+  width: 100%;
+  height: 70px;
+  border-radius: 10px;
+  background: #ECECEC;
+}
+
+.see-other-solution-points-button-area a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: inherit;
+  font-size: 18px;
+  color: #525252;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+.solution-points-city-body {
+  overflow-y: scroll;
+  margin-top: 15px;
+  max-height: 672px;
+  height: 650px;
+}
+
+.solution-points-city-body h6 {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #525252;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+.solution-points-city-body-area a {
+  display: block;
+  border: 1px solid #ececec;
+  border-right: inherit;
+  border-left: inherit;
+  border-bottom: inherit;
+  padding: 20px 20px;
+  text-decoration: inherit;
+
+}
+
+.solution-points-city-body-area a:hover {
+  background: #fbfbfb;
+
+}
+
+.solution-points-city-body-area p {
+  color: #525252;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  margin: 0;
+}
+
+.solution-points-filter-title {
+  color: #525252;
+  font-size: 18px;
+  font-weight: 600 !important;
+  font-family: 'Poppins';
+}
+
+.solution-points-filter-phone-number {
+  margin-top: 40px !important;
+}
+
+.solution-points-working-house ul>li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.solution-points-working-house-body {
+  margin-top: 72px;
+}
+
+.solution-points-working-house ul>li p {
+  color: #525252;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+
+.solution-points-working-house-body p {
+  font-size: 18px;
+  color: #525252;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+
+.solution-points-district-body p {
+  color: #525252;
+  font-weight: 400;
+  font-family: 'Poppins';
+  font-size: 18px;
+  margin: 3px 0;
+}
+
+.solution-points-province-filter-area p {
+  color: #525252;
+  font-weight: 400;
+  font-family: 'Poppins';
+  font-size: 18px;
+  margin: 3px 0;
+}
+
+.solution-points-searc-button-body-all-area {
+  display: flex;
+  align-items: end;
+  height: 100%;
+}
+
+.backgorund-item-area-one {
+  position: absolute;
+  z-index: 2;
+  right: -275px;
+  top: 420px;
+}
+
+.backgorund-item-area-two {
+  position: absolute;
+  z-index: 2;
+  left: -275px;
+  top: 200px;
+  opacity: 0.7;
+}
+
+@media (min-width:310px) and (max-width:1024px) {
+  .solution-points-all-area-body {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+  }
+
+  .solution-points-body {
+    padding: 20px 20px;
+  }
+
+  .solution-points-province-filter-area .nice-select {
+    margin-bottom: 25px;
+  }
+
+  .solution-points-district-body .nice-select {
+    margin-bottom: 25px;
+  }
+
+  .solution-points-city-body {
+    margin-bottom: 65px;
+  }
+
+  .solution-points-title-area h4 {
+    font-size: 33px;
+  }
+
+  .solution-points-city-body-area p {
+    font-size: 16px;
+  }
+
+  .backgorund-item-area-one {
+    display: none;
+  }
+
+  .backgorund-item-area-two {
+    display: none;
+  }
+}
+
+/* filtre alanı */

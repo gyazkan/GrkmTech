@@ -1,0 +1,106 @@
+.our-project-all-area .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2fbfb ;
+    color: #000000 ;
+}
+.our-project-all-area tr {
+    background: #fff;
+}
+.our-project-all-area .table td {
+    vertical-align: top;
+    color: #000000 ;
+    border: 1px solid #cfe5e9;
+    font-size: 22px;
+    font-weight: 400;
+    font-family:'Poppins';
+}
+.our-project-all-area .table th {
+    vertical-align: top;
+    color: #fff ;
+    background: #00728A;
+    padding: 15px 0;
+    text-align: center;
+    border-right: 1px solid #cfe5e9;
+    margin-bottom: 10px;
+    border-top: 0 !important;
+    border-bottom: 0;
+    font-size: 22px;
+    font-weight: 400;
+    font-family:'Poppins';
+}
+.our-project-all-area .table{
+    position: relative;
+    z-index: 5;
+}
+.project-item {
+    border-top-left-radius: 10px;
+}
+.project-item-last {
+    border-top-right-radius: 10px;
+}
+.our-project-all-area thead::after{
+    height: 1em;
+    display: table-row;
+    content: "";
+}
+.our-project-title-area h4{
+    color: #000000;
+    font-size: 62px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.our-project-title-area h4::after{
+  content: '';
+  display: block;
+  border-bottom: 3px solid #07A9B1;
+  width: 26%;
+  margin: 10px auto;
+}
+.our-project-title-area {
+    margin-bottom: 102px;
+}
+.our-project-background-one-area {
+    position: absolute;
+    z-index: 1;
+    right: -430px;
+    top: 280px;
+}
+.our-project-background-two-area {
+    position: absolute;
+    z-index: 1;
+    left: -430px;
+    top: 85px;
+    opacity: 0.5;
+}
+
+
+@media (min-width:310px) and (max-width:576px) {
+    .our-project-all-area table {
+        overflow-x: scroll;
+        display: block;
+    }
+    
+    .our-project-all-area .table td {
+        font-size: 16px;
+    }
+    .our-project-all-area .table th {
+        font-size: 16px;
+    }
+    .our-project-title-area h4{
+        font-size: 35px;
+    }
+    .our-project-title-area h4::after{
+      content: '';
+      width: 60%;
+    }
+    .our-project-background-one-area {
+        display: none;
+    }
+    .our-project-background-two-area {
+        display: none;
+    }
+    .our-project-title-area {
+        margin-bottom: 50px;
+    }
+    
+}

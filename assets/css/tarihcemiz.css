@@ -1,0 +1,212 @@
+.history-head {
+    position: relative;
+}
+.history-head-text {
+    margin-top: 50px;
+}
+.history-head-text h1 {
+    font-size: 89px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: -3px;
+}
+.history-head-text h1 span {
+    color: #07A9B1;
+}
+.history-head-image p {
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+img.history-head-absolute {
+    position: absolute;
+    top: -39px;
+    left: -262px;
+    z-index: 1;
+}
+.history-head-text {
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+.history-timeline {
+    margin-top: 100px;
+}
+.history-timeline-item span b {
+    background: #064F6B;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    z-index: 4;
+    position: relative;
+}
+
+.history-timeline-item span:before {
+    content: '';
+    width: 50%;
+    height: 4px;
+    background: #07A9B1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    z-index: 2;
+    right: 0;
+}
+.history-timeline-item span:after {
+    content: '';
+    width: 50%;
+    height: 4px;
+    background: #07A9B1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    z-index: 2;
+    left: 0;
+}
+.history-timeline-item {
+    position: relative;
+}
+.history-timeline-item span {
+    position: relative;
+}
+.history-timeline .row .col-6:first-child .history-timeline-item span:after {
+    display: none;
+}
+.history-timeline .row .col-6:last-child .history-timeline-item span:before {
+    display: none;
+}
+.history-timeline .row .col {
+    padding:0 !important;
+}
+.history-timeline-item h6 {
+    font-size:28px;
+    color:black;
+    font-weight: 800;
+    text-align:center;
+    margin-bottom: 23px;
+}
+.history-timeline-item p {
+    width: 167px;
+    margin: 20px auto 0;
+    line-height: 1.2;
+    font-size: 15px;
+}
+.vision-area, .precious-area {
+    margin-top:100px;
+}
+.vision-title span,
+.precious-title span {
+    background: #07A9B1;
+    width: 100%;
+    height: 3px;
+    display: block;
+}
+.vision-title h4,
+.precious-title h4 {
+    color: black;
+    font-weight: 600;
+    font-size: 50px;
+}
+.vision-title,
+.precious-title {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto 30px;
+}
+.vision-text p,
+.precious-text p {
+    margin: 0 auto;
+    max-width: 55%;
+}
+.vision-text,
+.precious-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.precious-body-item p {
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.precious-body-item {
+    background: radial-gradient(circle, rgba(26,114,140,1) 0%, rgba(0,68,97,1) 100%);
+    color: white;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: auto;
+
+    align-self: center;
+    align-items: center;
+    display: flex;
+    margin-bottom:30px !important;
+    height: 100%;
+}
+@media(max-width:1440px) {
+    .history-head-text h1 {
+        font-size: 73px;
+    }
+    img.history-head-absolute {
+        max-width: 671px;
+    }
+}
+@media(max-width:1300px) {
+    .history-timeline .row.w-100.mx-auto.row-cols-2.row-cols-md-3.row-cols-lg-6 {
+        padding:0 !important;
+    }
+}
+@media(max-width:1200px) {
+    .history-timeline-item p {
+        width: 90%;
+        font-size: 13px;
+        text-align: center;
+    }
+    .history-timeline-item span:before,
+    .history-timeline-item span:after{
+        display: none !important;
+    }
+    .history-timeline .row .col-6 {
+        margin-bottom:30px;
+    }
+    .vision-body p {
+        font-size: 13px;
+    }
+    .vision-text p, .precious-text p {
+        margin: 0 auto;
+        max-width: 80%;
+        font-size: 13px;
+    }
+    .vision-title h4, .precious-title h4 {
+        color: black;
+        font-weight: 600;
+        font-size: 29px;
+    }
+    .precious-body-item p {
+        max-width: 85%;
+        font-size: 13px;
+    }
+    .history-head-text h1 {
+        font-size: 47px;
+    }
+    .precious-body-item {
+        margin-bottom: 30px !important;
+    }
+    .history-head .container-fluid {
+        position: relative;
+        z-index: 2;
+    }
+    img.history-head-absolute {
+        top: 6px;
+    }
+}
+@media(max-width:768px) {
+    .precious-body .col-md-4 {
+        margin-bottom: 30px !important;
+    }
+}

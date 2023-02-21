@@ -1,0 +1,106 @@
+.atom-vrf-system-title-area h4 {
+    font-size: 62px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #000000;
+}
+
+.atom-vrf-system-title-area {
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.atom-vrf-system-title-area h4::after {
+    content: "";
+    display: block;
+    border-bottom: 5px solid #07A9B1;
+    width: 45%;
+    margin: 10px auto;
+}
+.vrf-system-information-text-area p{
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+}
+.vrf-area-all-body{
+    margin-bottom: 127px;
+}
+.vrf-air-conditioning-area-body {
+    margin-top: 127px;
+}
+.vrf-air-conditioning-text-area h4::after{
+    content: "";
+    display: block;
+    border-bottom: 5px solid #07A9B1;
+    width: 75%;
+    margin: 13px auto;
+}
+.vrf-air-conditioning-text-area h4 {
+    font-size: 42px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.vrf-air-conditioning-img-area {
+    position: relative;
+    z-index: 2;
+}
+.vrf-air-conditioning-img-area  img{
+width: 573px;
+max-width: 573px;
+}
+.background-absolute{
+    position: absolute;
+    left: -360px;
+    top: -158px;
+    opacity: 0.5;
+}
+.vrf-air-text-area p {
+    color: #000000;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+}
+.vrf-air-text-area {
+    padding: 28px 90px;
+}
+@media (min-width:310px) and (max-width:576px) {
+    .vrf-air-text-area {
+        padding: 0;
+    }
+    .vrf-air-conditioning-img-area img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .atom-vrf-system-title-area h4 {
+        font-size: 30px;
+    }
+    .vrf-air-conditioning-text-area h4::after{
+        content: "";
+        display: block;
+        width: 100%;
+    }
+    .vrf-air-conditioning-area-body {
+        margin-top: 60px;
+    }
+    .vrf-air-conditioning-text-area h4 {
+        font-size: 23px;
+    }
+    .vrf-air-text-area p {
+        font-size: 17px;
+    }
+    .vrf-system-information-text-area p {
+        font-size: 17px;
+    }
+    .atom-vrf-system-title-area h4::after {
+        width: 100%;
+    }
+    .background-absolute{
+    display: none;
+    }
+
+}

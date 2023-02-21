@@ -1,0 +1,329 @@
+.contact-area-full-body {
+    background: url("/assets/img/contact-background.png");
+    padding: 80px 0;
+    width: 1920px;
+    position: relative;
+}
+.contact-mobile{
+    padding: 0;
+}
+.contact-background-absolute-one {
+    position: absolute;
+    left: -140px;
+    top: 115px;
+}
+.contact-background-absolute-two{
+    position: absolute;
+    position: absolute;
+    right: -275px;
+    opacity: 0.5;
+    top: 275px;
+}
+
+.contact-in-field {
+    width: 1370px;
+    border-radius: 15px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 10px #00728A2B;
+    background: #fff;
+    padding: 80px 98px;
+    position: relative;
+}
+
+.contact-header h4 {
+    font-size: 42px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.input-name-surname-area input {
+    height: 45px;
+    border-radius: 10px !important;
+    border-color: #8D8D8D !important;
+    box-shadow: inherit;
+}
+
+.input-name-surname-area input:focus {
+    box-shadow: inherit;
+    outline: inherit !important;
+}
+
+.contact-all-body-area {
+    margin-top: 65px;
+}
+
+.phone-or-mail-area {
+    margin-top: 19px;
+}
+
+.name-surname-text p {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+.phone-number-text-area p {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+.phone-number-input-area input {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: #8D8D8D !important;
+    border-radius: 0 !important;
+}
+
+.phone-number-input-area input:focus {
+    outline: inherit !important;
+    box-shadow: inherit !important;
+}
+
+.phone-number-input-area input::-webkit-outer-spin-button,
+.phone-number-input-area input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.mail-input-area input {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: #8D8D8D !important;
+    border-radius: 0 !important;
+}
+
+.mail-input-area input:focus {
+    outline: inherit !important;
+    box-shadow: inherit !important;
+}
+
+.contact-description-area textarea {
+    resize: none;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-color: #8D8D8D !important;
+    border-radius: 0 !important;
+    padding: 10px 0;
+}
+
+.contact-description-area textarea:focus {
+    outline: inherit !important;
+    box-shadow: inherit !important;
+}
+
+.contact-description-area {
+    margin-top: 18px;
+}
+
+.contact-description-area>.contact-description-body>.form-group label {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+.KVKK-text-area a {
+    color: #525252;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    text-decoration: underline;
+}
+
+.KVKK-ckeckbox-area {
+    margin-top: 15px;
+}
+
+.KVKK-ckeckbox-area>.form-check-inline label {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.lighting-text-area a {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.lighting-text-body {
+    margin-top: 24px;
+}
+
+.contact-send-button-area {
+    margin-top: 81px;
+}
+
+.contact-send-button-body {
+    background: #07A9B1;
+    width: 100%;
+    height: 65px;
+    max-height: 65px;
+    border-radius: 10px;
+
+}
+
+.contact-send-button-body a {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-decoration: inherit;
+    font-size: 22px;
+}
+
+
+.contact-location-all-body-area {
+    margin-top: 105px;
+}
+
+.contact-location-information-area {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.contact-location-icon-area {
+    margin-right: 15px;
+}
+
+.contact-address-area p {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.contact-phone-number-area {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.contact-phone-number-icon img {
+    margin-right: 15px;
+}
+
+.contact-phone-number-text p {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.contact-mail-body {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.contact-mail-icon img {
+    margin-right: 15px;
+}
+
+.contact-mail-text p {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.social-media-body img {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.contact-map-address-area {
+    margin-top: 20px;
+}
+
+.KVKK-ckeckbox-area input {
+    width: 17px;
+    height: 17px;
+}
+.mail-text-area p{
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+.body-area {
+    margin-top: 122px !important;
+    padding: 0 !important;
+}
+
+@media (min-width:310px) and (max-width:1024px) {
+    .contact-area-full-body {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .contact-in-field {
+        width: 100%;
+        padding: 80px 30px;
+    }
+
+    .contact-address-body iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .KVKK-ckeckbox-area .form-check-inline {
+        justify-content: start;
+        align-items: start;
+    }
+    .KVKK-ckeckbox-area input{
+        width: 35px;
+        height: 25px;
+    }
+    .contact-location-all-body-area {
+        margin-top: 60px;
+    }
+    .contact-header h4 {
+        font-size: 24px;
+    }
+    .name-surname-text p {
+        font-size: 15px;
+    }
+    .phone-number-text-area p {
+        font-size: 15px;
+    }
+    .mail-text-area p{
+        font-size: 15px;
+    }
+    .contact-description-area > .contact-description-body > .form-group label {
+        font-size: 15px;
+    }
+    .contact-mobile{
+        padding: 0;
+    }
+    .contact-background-absolute-two{
+        display: none;
+    }
+    .contact-background-absolute-one{
+        display: none;
+    }
+    .body-area {
+        margin-top: 100px !important;
+        padding: 0 !important;
+    }
+}

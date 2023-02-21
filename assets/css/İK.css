@@ -1,0 +1,619 @@
+.İK-title-area h4 {
+    font-size: 55px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-bottom: 22px;
+}
+
+.İK-text-area p {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-bottom: 64px;
+}
+
+.İK-jobs-see-area {
+    display: flex;
+}
+
+.İK-jobs-button-area {
+    width: 300px;
+    height: 65px;
+    max-height: 65px;
+    max-width: 300px;
+}
+
+.İK-jobs-button-area a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #07A9B1;
+    border-radius: 10px;
+    text-decoration: inherit;
+    font-size: 18px;
+
+}
+
+.İK-icon-area img {
+    margin-right: 10px;
+}
+
+.İK-background-img img {
+    width: 100%;
+}
+
+.DRC-tech-academy-title-area h4 {
+    font-size: 64px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+
+.DRC-tech-academy-title-area h4::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #07A9B1;
+    width: 41%;
+    margin: 0 auto;
+}
+
+.DRC-tech-academy-title-area {
+    margin-top: 20px;
+}
+
+.İK-academy-banner-area img {
+    width: 700px;
+    max-width: 700px;
+}
+
+.İK-academy-description-area {
+    margin-top: 100px;
+}
+
+.DRC-tech-academy-education-title-area h4 {
+    color: #000000;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.DRC-tech-academy-education-text-area p {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 15px;
+}
+
+.check-out-tutorials-button-area {
+    width: 300px;
+    height: 65px;
+    border-radius: 10px;
+    background: #07A9B1;
+    margin-top: 76px;
+}
+
+.check-out-tutorials-button-area a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: inherit;
+    font-size: 18px;
+}
+
+.open-positions-title-area h4 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 62px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.open-positions-title-area h4::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #07A9B1;
+    width: 35%;
+    margin: 10px auto;
+}
+
+.open-positions-all-body-area {
+    margin-top: 95px;
+}
+
+.IK-academy-accordion-all-area {
+    margin-top: 49px;
+}
+
+.IK-academy-accordion-all-area .card-header button {
+    display: flex !important;
+    width: 100% !important;
+    text-align: start !important;
+    height: 100% !important;
+    padding: 20px 35px !important;
+    justify-content: space-between !important;
+    text-decoration: inherit;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #000000;
+}
+
+.IK-academy-accordion-all-area .card-header button i {
+    font-size: 40px;
+}
+
+.IK-academy-accordion-all-area .card-header {
+    padding: 0 !important;
+    border-bottom: inherit !important;
+    margin-bottom: 15px;
+    height: 80px;
+    max-height: 80px;
+}
+
+
+.IK-academy-accordion-all-area [aria-expanded="true"] i {
+    transform: rotate(90deg);
+    transition: .4s all;
+}
+
+.IK-academy-accordion-all-area [aria-expanded="false"] i {
+    transform: rotate(0deg);
+    transition: .4s all;
+}
+
+.IK-academy-accordion-all-area [aria-expanded="false"] {
+    background: #E5E5E5;
+    border-radius: 10px;
+}
+
+.IK-academy-accordion-all-area [aria-expanded="true"] {
+    background: #1A1A1A;
+    border-radius: 10px;
+    color: #fff !important;
+}
+
+.IK-accordion-academy-text-area p {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.IK-accordion-academy-button-area .btn-link {
+    width: 300px;
+    height: 65px;
+    border-radius: 10px;
+    background: #07A9B1;
+    border-color: #07A9B1;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: inherit;
+}
+
+.IK-accordion-academy-button-area {
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+.job-opportunities-contact-contact-area .modal-dialog {
+    max-width: 1370px !important;
+    width: 1370px;
+}
+
+.job-opportunities-contact-contact-area .modal-content {
+    height: 890px;
+    border-radius: 10px;
+    background: #F5FAFB;
+    padding: 60px 80px;
+}
+
+.job-opportunities-contact-contact-title-area h4 {
+    font-size: 42px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Poppins';
+    text-align: start;
+}
+
+.job-opportunities-contact-contact-title-area {
+    margin-bottom: 25px;
+}
+
+.name-surname-text-body p {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: start;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.name-surname-input-area input {
+    width: 640px;
+    height: 45px;
+    border-radius: 10px !important;
+    border-color: #8D8D8D;
+}
+
+.name-surname-input-area input:focus {
+    outline: inherit !important;
+    box-shadow: inherit;
+    border-color: #8D8D8D;
+}
+
+.IK-phone-mail-area {
+    margin-top: 25px;
+}
+
+.IK-phone-number-text-area p {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: start;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.IK-phone-number-input-body input {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px !important;
+    border-color: #8D8D8D;
+}
+
+.IK-phone-number-input-body input:focus {
+    outline: inherit !important;
+    box-shadow: inherit;
+    border-color: #8D8D8D;
+}
+
+.IK-phone-number-input-body input::-webkit-outer-spin-button,
+.IK-phone-number-input-body input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.IK-mail-text-area p {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: start;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.IK-mail-input-body input {
+    width: 300px !important;
+    height: 45px;
+    border-radius: 10px !important;
+    border-color: #8D8D8D;
+}
+
+.IK-mail-input-body input:focus {
+    outline: inherit !important;
+    box-shadow: inherit;
+    border-color: #8D8D8D;
+}
+
+.IK-description-area-text p {
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: start;
+    margin: 0;
+    margin-bottom: 3px;
+
+}
+
+.IK-description-adding-area textarea {
+    resize: inherit;
+    border-color: #8D8D8D;
+    height: 120px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.IK-description-adding-area textarea:focus {
+    outline: inherit !important;
+    box-shadow: inherit !important;
+    border-color: #8D8D8D;
+}
+
+.IK-description-area {
+    margin-top: 20px;
+}
+
+.CV-adding-all-body .CV-adding-text-area p {
+    text-align: start;
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 16px;
+    text-align: start;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.CV-adding-button-area a {
+    width: 180px;
+    max-width: 180px;
+    height: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+    background: #07A9B1;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    border-color: #07A9B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: inherit;
+}
+
+.CV-adding-button-area span {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #525252;
+}
+
+.CV-adding-button-area {
+    display: flex;
+    align-items: center;
+}
+
+.CV-adding-all-body button:focus {
+    box-shadow: inherit !important;
+    outline: inherit !important;
+}
+
+.IK-kvkk-permisson-title-area a {
+    color: #525252;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: 'Poppins';
+}
+
+.IK-kvkk-permisson-title-area {
+    width: 100%;
+    text-align: start;
+    margin-top: 35px;
+}
+
+.IK-kvkk-checkbox-area input {
+    width: 17px;
+    height: 17px;
+    margin-right: 7px !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+}
+
+.IK-kvkk-checkbox-area {
+    text-align: start;
+    margin-top: 25px;
+}
+
+.IK-kvkk-checkbox-area label {
+    color: #525252;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+.IK-lighting-text-area a {
+    font-size: 16px;
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins';
+    text-decoration: underline;
+}
+
+.IK-lighting-text-area {
+    width: 100%;
+    text-align: start;
+    margin-top: 24px;
+}
+
+.IK-send-button-area {
+    width: 600px;
+    max-width: 600px;
+    height: 65px;
+    max-height: 65px;
+    text-align: start;
+    background: #07A9B1;
+    display: flex;
+    justify-content: start;
+    margin-top: 24px;
+    border-radius: 10px;
+
+}
+
+.IK-send-button-area a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2FAFF;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    text-decoration: inherit !important;
+}
+
+.IK-modal-banner-area img {
+    height: 780px;
+    max-height: 780px;
+}
+
+
+.close-button-area button:focus {
+    outline: inherit !important;
+    box-shadow: inherit !important;
+}
+
+.close-button-area span {
+    font-weight: 200;
+    font-size: 40px;
+}
+.close-button-area button {
+    position: absolute;
+    top: -45px;
+    right: -30px;
+}
+
+
+
+
+
+
+@media (min-width:310px) and (max-width:1024px) {
+    .İK-academy-banner-area img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .IK-academy-accordion-all-area .card-header button {
+        font-size: 16px;
+    }
+
+    .IK-academy-accordion-all-area .card-header button i {
+        font-size: 27px;
+    }
+
+    .open-positions-title-area h4 {
+        font-size: 30px;
+    }
+
+    .open-positions-title-area h4::after {
+        width: 85%;
+    }
+
+    .İK-title-area h4 {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
+    .close-button-area button {
+        position: absolute;
+        top: -40px;
+        right: 20px;
+    }
+
+
+    .İK-text-area p {
+        font-size: 17px;
+    }
+
+    .İK-jobs-see-area {
+        margin-bottom: 50px;
+    }
+
+    .DRC-tech-academy-title-area h4 {
+        font-size: 30px;
+    }
+
+    .DRC-tech-academy-title-area h4::after {
+        width: 84%;
+    }
+
+    .İK-academy-banner-area {
+        margin-bottom: 50px;
+    }
+
+    .DRC-tech-academy-education-title-area h4 {
+        font-size: 30px;
+    }
+
+    .DRC-tech-academy-education-text-area p {
+        font-size: 17px;
+    }
+
+    .check-out-tutorials-button-area {
+        margin: 45px auto;
+    }
+
+    .open-positions-all-body-area {
+        margin-top: 30px;
+    }
+
+    .IK-accordion-academy-text-area p {
+        font-size: 17px;
+    }
+
+    .job-opportunities-contact-contact-area .modal-content {
+        height: inherit !important;
+        padding: 50px 20px;
+    }
+
+    .job-opportunities-contact-contact-area .modal-dialog {
+        max-width: 100% !important;
+        width: 100%;
+    }
+
+    .IK-description-adding-area textarea {
+        resize: inherit;
+        border-color: #8D8D8D;
+        height: 120px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .IK-modal-banner-area img {
+        width: 100%;
+        height: auto;
+    }
+
+    .IK-send-button-area {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .job-opportunities-contact-contact-title-area h4 {
+        font-size: 28px;
+    }
+
+    .name-surname-text-body p {
+        font-size: 15px;
+    }
+
+    .IK-phone-number-text-area p {
+        font-size: 15px;
+    }
+
+    .IK-mail-text-area p {
+        font-size: 15px;
+    }
+
+    .IK-description-area-text p {
+        font-size: 15px;
+    }
+
+    .IK-kvkk-checkbox-area input {
+        width: 35px;
+        height: 35px;
+    }
+}

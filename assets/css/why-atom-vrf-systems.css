@@ -1,0 +1,87 @@
+.why-atom-vrf-title {
+    text-align: center;
+}
+
+.why-atom-vrf-title h4 {
+    font-size: 62px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+}
+
+.why-atom-vrf-title h4::after {
+    content: "";
+    display: block;
+    border-bottom: 5px solid #07A9B1;
+    width: 65%;
+    margin: 10px auto;
+}
+
+.description-vrf-system p {
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+
+.description-vrf-system {
+    text-align: center;
+    margin-top: 34px;
+}
+
+.vrf-system-table-area {
+    margin-top: 137px;
+    margin-bottom: 119px;
+}
+
+.vrf-system-table-area img {
+    width: 100%;
+}
+
+.vrf-all-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.vrf-all-body p {
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.vrf-body-footer-item img {
+    transform: inherit;
+    cursor: pointer;
+    margin-bottom: 21px;
+}
+
+.vrf-properties-sort .col .vrf-all-body:hover{
+    transition: .3s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@media (min-width:310px) and (max-width:576px) {
+    .why-atom-vrf-title h4 {
+        font-size: 35px;
+    }
+    .why-atom-vrf-title h4::after {
+        content: "";
+        width: 100%;
+    }
+    .vrf-system-table-area {
+        margin-top: 49px;
+        margin-bottom: 70px;
+    }
+    .vrf-all-body p {
+        font-size: 14px;
+    }
+    
+    
+}

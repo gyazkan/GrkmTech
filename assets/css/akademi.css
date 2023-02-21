@@ -1,0 +1,115 @@
+.media-title h4 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.media-title {
+    margin-bottom: 60px;
+}
+
+.media-title {
+    text-align: center;
+}
+.media-item img {
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.media-item .media-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.media-item .media-date {
+    margin-bottom: 15px;
+}
+.media-item .media-date p ,
+.media-item .media-date a{
+    color:#848484;
+    margin-bottom:0;
+}
+.media-item a:hover {
+    text-decoration: none;
+}
+.media-item-title {
+    width:85%;
+    margin-bottom:15px;
+}
+.media-item-title,
+.media-item-title a{
+    color: black;
+}
+p.media-link a {
+    color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+p.media-link:hover a {
+    color: white;
+    transition: .3s all;
+}
+
+p.media-link:hover {
+    background: #07A9B1;
+    color: white;
+    border-color: #07A9B1;
+    transition: .3s all;
+}
+p.media-link {
+    width: 180px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+    transition: .3s all;
+}
+.media-body .col-md-4 {
+    margin-bottom:70px;
+}
+
+.media-title span {
+    color: #07A9B1;
+}
+.media-title span {
+    background: #07A9B1;
+    width: 100%;
+    height: 3px;
+    display: block;
+}
+.media-title {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto 30px;
+}
+.media-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.media-text p{
+    margin: 0 auto;
+    max-width: 55%;
+}
+.media-item-text-area p {
+    font-size: 14px;
+}
+
+@media(max-width:576px) {
+    .media-item-title {
+        width:100%;
+    }
+}
+@media(max-width:576px) {
+    .media-text p {
+        max-width: 90%;
+    }
+    .media-title h4 {
+        font-size: 31px;
+        font-weight: 600;
+    }
+}
